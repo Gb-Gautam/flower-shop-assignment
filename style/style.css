@@ -149,6 +149,9 @@ body{
  font-weight: 800;
  padding-bottom: 12px;
 }
+.sale-title-span{
+  color: #E55473;
+}
 .sale-desc{
 color: rgba(39, 39, 39, 0.60);
 text-align: center;

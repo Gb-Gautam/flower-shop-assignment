@@ -6,6 +6,12 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
+.btn-primary{
+  background: #E55473;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+}
 /* banner section */
 .header{
   width: 100%;
@@ -37,12 +43,8 @@ body{
   padding-top: 50px;
   padding-bottom: 0px;
 }
-.btn-primary{
-  background: #E55473;
-  border: none;
-  border-radius: 8px;
-  padding: 12px 20px;
-}
+
+
 /* frature section start */
 .feature-title{
   color: #272727;
@@ -57,9 +59,7 @@ body{
   font-weight: 400;
   line-height: 30px;
 }
-/* .frature-content{
-  margin-top: 200px;
-} */
+
 .feature-title{
   margin-top: 120px;
   margin-bottom: 20px;
@@ -99,3 +99,66 @@ body{
   
 }
 
+/* secrvice section start */
+.service-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 40px;
+  height: 220px;
+  margin: 100px 100px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+
+}
+.service-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-img{
+  width: 50px;
+  height: 50px;
+}
+.service-desc{
+  color: rgba(39, 39, 39, 0.80);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+/* sale style  */
+.sale-section{
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sale-content{
+  text-align: center;
+  padding-left: 100px;
+}
+
+.sale-title{
+ color: #272727;
+ font-size: 30px;
+ font-weight: 800;
+ padding-bottom: 12px;
+}
+.sale-desc{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 12px;
+}
+
+.sale-img{
+  padding-right: 100px;
+  width: 200px;
+  height: 220px;
+}

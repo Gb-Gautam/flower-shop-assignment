@@ -12,12 +12,7 @@ body{
   border-radius: 8px;
   padding: 12px 20px;
 }
-/* .title-primary{
-  color: #272727;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 800;
-} */
+
 /* banner section */
 .header{
   width: 100%;
@@ -106,7 +101,14 @@ body{
   /* width: 50%; */
 
   }
-
+  .feature-image-name{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: underline;
+    padding: 10px 200px  ;
+  }
+  
 /* secrvice section start */
 .service-section{
   display: flex;
